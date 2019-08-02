@@ -83,7 +83,7 @@ public class modticket extends HttpServlet {
        out.println("</table>");
        out.println("<br>");
      out.println("<form action=\"Addnotes\" method=\"post\">\n" +
-            "<label>Add Notes: </label><input type=\"text\" name=\"notes\"/><br>"+
+            "<label>Add Notes: </label><input type=\"text\" name=\"notes\" autocomplete=\"off\"/><br>"+
 "        <button name=\"add\" type=\"submit\" value="+index+">Add Notes</button>" +
 "        </form>");
      out.println("<br>");
